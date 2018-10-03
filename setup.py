@@ -91,6 +91,7 @@ setup(
 
     [babel.extractors]
     ignore = babel.messages.extract:extract_nothing
+    ignore = babel.messages.extract:extract_nothing2
     python = babel.messages.extract:extract_python
     javascript = babel.messages.extract:extract_javascript
     """
